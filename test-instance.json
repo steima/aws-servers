@@ -1,0 +1,88 @@
+{
+    "Instances": [
+        {
+            "Monitoring": {
+                "State": "disabled"
+            }, 
+            "PublicDnsName": "", 
+            "StateReason": {
+                "Message": "pending", 
+                "Code": "pending"
+            }, 
+            "State": {
+                "Code": 0, 
+                "Name": "pending"
+            }, 
+            "EbsOptimized": false, 
+            "LaunchTime": "2017-12-19T12:19:59.000Z", 
+            "PrivateIpAddress": "172.31.36.28", 
+            "ProductCodes": [], 
+            "VpcId": "vpc-d7a0b0b3", 
+            "StateTransitionReason": "", 
+            "InstanceId": "i-07541b4290e415820", 
+            "ImageId": "ami-1a962263", 
+            "PrivateDnsName": "ip-172-31-36-28.eu-west-1.compute.internal", 
+            "KeyName": "ssh-matthias-mbp", 
+            "SecurityGroups": [
+                {
+                    "GroupName": "will-it-scale-sg", 
+                    "GroupId": "sg-27c5945c"
+                }
+            ], 
+            "ClientToken": "", 
+            "SubnetId": "subnet-bb6f4be3", 
+            "InstanceType": "t2.nano", 
+            "NetworkInterfaces": [
+                {
+                    "Status": "in-use", 
+                    "MacAddress": "0a:9a:75:41:96:3a", 
+                    "SourceDestCheck": true, 
+                    "VpcId": "vpc-d7a0b0b3", 
+                    "Description": "", 
+                    "NetworkInterfaceId": "eni-ceb504cd", 
+                    "PrivateIpAddresses": [
+                        {
+                            "PrivateDnsName": "ip-172-31-36-28.eu-west-1.compute.internal", 
+                            "Primary": true, 
+                            "PrivateIpAddress": "172.31.36.28"
+                        }
+                    ], 
+                    "PrivateDnsName": "ip-172-31-36-28.eu-west-1.compute.internal", 
+                    "Attachment": {
+                        "Status": "attaching", 
+                        "DeviceIndex": 0, 
+                        "DeleteOnTermination": true, 
+                        "AttachmentId": "eni-attach-e275fd0c", 
+                        "AttachTime": "2017-12-19T12:19:59.000Z"
+                    }, 
+                    "Groups": [
+                        {
+                            "GroupName": "will-it-scale-sg", 
+                            "GroupId": "sg-27c5945c"
+                        }
+                    ], 
+                    "Ipv6Addresses": [], 
+                    "OwnerId": "086035810729", 
+                    "SubnetId": "subnet-bb6f4be3", 
+                    "PrivateIpAddress": "172.31.36.28"
+                }
+            ], 
+            "SourceDestCheck": true, 
+            "Placement": {
+                "Tenancy": "default", 
+                "GroupName": "", 
+                "AvailabilityZone": "eu-west-1b"
+            }, 
+            "Hypervisor": "xen", 
+            "BlockDeviceMappings": [], 
+            "Architecture": "x86_64", 
+            "RootDeviceType": "ebs", 
+            "RootDeviceName": "/dev/xvda", 
+            "VirtualizationType": "hvm", 
+            "AmiLaunchIndex": 0
+        }
+    ], 
+    "ReservationId": "r-0a6fb5971def1d8c0", 
+    "Groups": [], 
+    "OwnerId": "086035810729"
+}
