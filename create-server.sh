@@ -44,3 +44,6 @@ while [ "${INSTANCE_STATE}" != "running" ] ; do
         sleep 10
     fi
 done
+echo "Server ${PUBLIC_DNS} up and running"
+
+echo "${INSTANCE_ID}" >> .running-instances
